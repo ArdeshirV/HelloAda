@@ -1,0 +1,58 @@
+V "GNAT Lib v8"
+M P W=b
+A -gnatwa
+A -Wall
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_RECURSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U hello_world%b		hello_world.adb		b961cef8 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D hello_world.adb	20190123150606 317c7da2 hello_world%b
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-conca3.ads		20180111085525 0b705ca5 system.concat_3%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-imgint.ads		20180111085525 02dbe0c2 system.img_int%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 8|1r6 20r3 21r3
+X 6 a-textio.ads
+49K13*Text_IO 471e16 8|1w10 20r7 21r7
+242U14*Put 8|20s15
+263U14*Put_Line 8|21s15
+X 8 hello_world.adb
+3U11*hello_world 3b11 22l5 22t16
+4i3 intValue{integer} 19m3 20r48 21r49
+6V12 factorial{integer} 6b12 6>22 12s20 16l7 16t16 21s39
+6i22 num{integer} 11r8 12r30 12r40
+7i5 intResult{integer} 9m5 12m7 15r12
+
