@@ -21,4 +21,3 @@ begin
   Ada.Text_IO.Put_Line( Integer'Image(factorial(intValue)) );
 end hello_world;
 --------------------------------------------------------------------------------
-pppppppppppp o8
